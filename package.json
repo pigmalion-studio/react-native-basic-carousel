@@ -1,6 +1,6 @@
 {
   "name": "react-native-basic-carousel",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "React Native component used for snapping through and displaying a list views, a basic carousel",
   "homepage": "https://github.com/macvish/react-native-basic-carousel#readme",
   "main": "lib/index.js",
@@ -44,7 +44,7 @@
     "!xcuserdata"
   ],
   "scripts": {
-    "compile": "rm -rf lib && tsc -p .",
+    "compile": "rimraf lib && tsc -p .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "yarn compile",
     "test": "jest"
@@ -80,5 +80,9 @@
       "json",
       "node"
     ]
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "rimraf": "^6.0.1"
   }
 }
