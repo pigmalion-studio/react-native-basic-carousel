@@ -62,5 +62,3 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-# Library
-lib/
